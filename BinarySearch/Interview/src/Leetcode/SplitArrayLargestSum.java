@@ -1,5 +1,5 @@
 package Leetcode;
-// https://leetcode.com/problems/split-array-largest-sum/submissions/
+
 public class SplitArrayLargestSum {
     public static void main(String[] args) {
         int [] arr = {1,2,3,4,5};
