@@ -9,9 +9,9 @@ public class SplitArrayLargestSum {
     public static int splitArray(int[] nums,int m){
         int start = 0;
         int end  = 0;
-        for (int i = 0; i < nums.length; i++) {
-            start = Math.max(start,nums[i]); // in  the end of this loop it will contain the max of this array
-            end +=nums[i];
+        for (int j : nums) {
+            start = Math.max(start, j); // in  the end of this loop it will contain the max of this array
+            end += j;
         }
         // binary search
         while(start < end){
