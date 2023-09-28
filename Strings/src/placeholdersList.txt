@@ -1,0 +1,11 @@
+%c - character
+%d - Decimal Number (base 10)
+%e - Exponential floating-point number
+%f - Floating point number
+%i - Integer (base 10)
+%o - Octal number (base 8)
+%s - String
+%u - Unsigned decmial (Integer) number
+%x - Hexadecimal Number (base 16)
+%t - Date/time
+%n - New Line
