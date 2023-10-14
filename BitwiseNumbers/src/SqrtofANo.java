@@ -5,6 +5,7 @@ public class SqrtofANo {
 
         System.out.println(sqrt(n,p));
     }
+//    Time : O(Logn)
     static double sqrt(int n, int p){
         int s = 0;
         int e = n;
