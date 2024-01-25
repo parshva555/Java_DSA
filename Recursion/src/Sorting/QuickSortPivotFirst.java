@@ -2,22 +2,21 @@ package Sorting;
 
 import java.util.Arrays;
 
-public class QuickSort {
+public class QuickSortPivotFirst {
     public static void main(String[] args) {
-        int[] arr = {5,4,3,2,11};
+        int[] arr = {88,123,234,23,123};
 //        sort(arr,0, arr.length-1);
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
-
     }
-    static void sort(int [] nums,int low,int high){
-        if(low > high){
+    static void sort (int [] nums, int low,int high){
+        if(low>high) {
             return;
         }
         int s = low;
         int e = high;
-        int m = s + (e - s) / 2;
-        int pivot = nums[m];
+        int pivot = nums[low];
+
         while(s<=e) {
             // also a reason why if its already sorted it will not swap
             while (nums[s] < pivot) {
