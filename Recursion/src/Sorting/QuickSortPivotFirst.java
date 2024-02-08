@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class QuickSortPivotFirst {
     public static void main(String[] args) {
-        int[] arr = {88,123,234,23,123};
+        int[] arr = {123,122,121,120,119};
 //        sort(arr,0, arr.length-1);
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));

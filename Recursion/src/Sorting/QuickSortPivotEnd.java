@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class QuickSortPivotEnd {
     public static void main(String[] args) {
-        int [] arr = {234,453,3421,5,34532};
+        int [] arr = {7,6,10,5,9,2,1,15,7};
         Arrays.sort(arr);
         System.out.println(Arrays.toString(arr));
     }
@@ -30,5 +30,7 @@ public class QuickSortPivotEnd {
                 e--;
             }
         }
+        sort(nums,low,e);
+        sort(nums,s,high);
     }
 }
