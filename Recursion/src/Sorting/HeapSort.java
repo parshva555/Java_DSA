@@ -6,14 +6,9 @@ public class HeapSort {
     public void sort(int arr[])
     {
         int N = arr.length;
-
-        // Build heap (rearrange array)
         for (int i = N / 2 - 1; i >= 0; i--)
             heapify(arr, N, i);
-
-        // One by one extract an element from heap
-        for (int i = N - 1; i > 0; i--) {
-            // Move current root to end
+        for (int i = N - 1; i > 0; i--){
             int temp = arr[0];
             arr[0] = arr[i];
             arr[i] = temp;
